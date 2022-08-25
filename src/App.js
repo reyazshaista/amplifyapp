@@ -125,7 +125,7 @@ export default withAuthenticator(App);
 // import { listNotes } from './graphql/queries';
 // import { createNote as createNoteMutation, deleteNote as deleteNoteMutation } from './graphql/mutations';
 
-// const initialFormState = { name: '', description: '' }
+// //const initialFormState = { name: '', description: '' }
 
 // function App() {
  
@@ -133,6 +133,7 @@ export default withAuthenticator(App);
 //   return (
 //     <div className="App">
 //       <h1>My Notes App</h1>
+    
      
 //     </div>
 //   );
