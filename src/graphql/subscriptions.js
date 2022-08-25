@@ -1,34 +1,118 @@
 /* eslint-disable */
 // this is an auto generated file. This will be overwritten
 
-export const onCreateNote = /* GraphQL */ `
-  subscription OnCreateNote($filter: ModelSubscriptionNoteFilterInput) {
-    onCreateNote(filter: $filter) {
+export const onCreateVendor = /* GraphQL */ `
+  subscription OnCreateVendor {
+    onCreateVendor {
       id
-      name
-      description
+      requestnumber
+      requestedoperation
+      status
+      vendorname
+      vendorfirstname
+      vendorfullname
+      addressline1
+      postalcode
+      cityname
+      country
+      region
+      emailaddress
+      languagekey
+      thirdpartysupplieraccgrp
+      purchasingorg
+      pocurrency
+      paymentkeyterms
+      incotermspart1
+      purchasinggroup
+      planneddeliverytimedays
+      companycode
+      reconcilliationaccount
+      streetname
+      blockkey4payment
+      industrykey
+      vendortype
+      customernumber
+      contacttitle
+      vendorgrouping
+      image
       createdAt
       updatedAt
     }
   }
 `;
-export const onUpdateNote = /* GraphQL */ `
-  subscription OnUpdateNote($filter: ModelSubscriptionNoteFilterInput) {
-    onUpdateNote(filter: $filter) {
+export const onUpdateVendor = /* GraphQL */ `
+  subscription OnUpdateVendor {
+    onUpdateVendor {
       id
-      name
-      description
+      requestnumber
+      requestedoperation
+      status
+      vendorname
+      vendorfirstname
+      vendorfullname
+      addressline1
+      postalcode
+      cityname
+      country
+      region
+      emailaddress
+      languagekey
+      thirdpartysupplieraccgrp
+      purchasingorg
+      pocurrency
+      paymentkeyterms
+      incotermspart1
+      purchasinggroup
+      planneddeliverytimedays
+      companycode
+      reconcilliationaccount
+      streetname
+      blockkey4payment
+      industrykey
+      vendortype
+      customernumber
+      contacttitle
+      vendorgrouping
+      image
       createdAt
       updatedAt
     }
   }
 `;
-export const onDeleteNote = /* GraphQL */ `
-  subscription OnDeleteNote($filter: ModelSubscriptionNoteFilterInput) {
-    onDeleteNote(filter: $filter) {
+export const onDeleteVendor = /* GraphQL */ `
+  subscription OnDeleteVendor {
+    onDeleteVendor {
       id
-      name
-      description
+      requestnumber
+      requestedoperation
+      status
+      vendorname
+      vendorfirstname
+      vendorfullname
+      addressline1
+      postalcode
+      cityname
+      country
+      region
+      emailaddress
+      languagekey
+      thirdpartysupplieraccgrp
+      purchasingorg
+      pocurrency
+      paymentkeyterms
+      incotermspart1
+      purchasinggroup
+      planneddeliverytimedays
+      companycode
+      reconcilliationaccount
+      streetname
+      blockkey4payment
+      industrykey
+      vendortype
+      customernumber
+      contacttitle
+      vendorgrouping
+      image
       createdAt
       updatedAt
     }
