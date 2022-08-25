@@ -1,127 +1,43 @@
 /* eslint-disable */
 // this is an auto generated file. This will be overwritten
 
-export const createVendor = /* GraphQL */ `
-  mutation CreateVendor(
-    $input: CreateVendorInput!
-    $condition: ModelVendorConditionInput
+export const createNote = /* GraphQL */ `
+  mutation CreateNote(
+    $input: CreateNoteInput!
+    $condition: ModelNoteConditionInput
   ) {
-    createVendor(input: $input, condition: $condition) {
+    createNote(input: $input, condition: $condition) {
       id
-      requestnumber
-      requestedoperation
-      status
-      vendorname
-      vendorfirstname
-      vendorfullname
-      addressline1
-      postalcode
-      cityname
-      country
-      region
-      emailaddress
-      languagekey
-      thirdpartysupplieraccgrp
-      purchasingorg
-      pocurrency
-      paymentkeyterms
-      incotermspart1
-      purchasinggroup
-      planneddeliverytimedays
-      companycode
-      reconcilliationaccount
-      streetname
-      blockkey4payment
-      industrykey
-      vendortype
-      customernumber
-      contacttitle
-      vendorgrouping
-      image
+      name
+      description
       createdAt
       updatedAt
     }
   }
 `;
-export const updateVendor = /* GraphQL */ `
-  mutation UpdateVendor(
-    $input: UpdateVendorInput!
-    $condition: ModelVendorConditionInput
+export const updateNote = /* GraphQL */ `
+  mutation UpdateNote(
+    $input: UpdateNoteInput!
+    $condition: ModelNoteConditionInput
   ) {
-    updateVendor(input: $input, condition: $condition) {
+    updateNote(input: $input, condition: $condition) {
       id
-      requestnumber
-      requestedoperation
-      status
-      vendorname
-      vendorfirstname
-      vendorfullname
-      addressline1
-      postalcode
-      cityname
-      country
-      region
-      emailaddress
-      languagekey
-      thirdpartysupplieraccgrp
-      purchasingorg
-      pocurrency
-      paymentkeyterms
-      incotermspart1
-      purchasinggroup
-      planneddeliverytimedays
-      companycode
-      reconcilliationaccount
-      streetname
-      blockkey4payment
-      industrykey
-      vendortype
-      customernumber
-      contacttitle
-      vendorgrouping
-      image
+      name
+      description
       createdAt
       updatedAt
     }
   }
 `;
-export const deleteVendor = /* GraphQL */ `
-  mutation DeleteVendor(
-    $input: DeleteVendorInput!
-    $condition: ModelVendorConditionInput
+export const deleteNote = /* GraphQL */ `
+  mutation DeleteNote(
+    $input: DeleteNoteInput!
+    $condition: ModelNoteConditionInput
   ) {
-    deleteVendor(input: $input, condition: $condition) {
+    deleteNote(input: $input, condition: $condition) {
       id
-      requestnumber
-      requestedoperation
-      status
-      vendorname
-      vendorfirstname
-      vendorfullname
-      addressline1
-      postalcode
-      cityname
-      country
-      region
-      emailaddress
-      languagekey
-      thirdpartysupplieraccgrp
-      purchasingorg
-      pocurrency
-      paymentkeyterms
-      incotermspart1
-      purchasinggroup
-      planneddeliverytimedays
-      companycode
-      reconcilliationaccount
-      streetname
-      blockkey4payment
-      industrykey
-      vendortype
-      customernumber
-      contacttitle
-      vendorgrouping
-      image
+      name
+      description
       createdAt
       updatedAt
     }
