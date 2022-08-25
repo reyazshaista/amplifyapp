@@ -2,8 +2,8 @@
 // this is an auto generated file. This will be overwritten
 
 export const onCreateVendor = /* GraphQL */ `
-  subscription OnCreateVendor {
-    onCreateVendor {
+  subscription OnCreateVendor($filter: ModelSubscriptionVendorFilterInput) {
+    onCreateVendor(filter: $filter) {
       id
       requestnumber
       requestedoperation
@@ -41,8 +41,8 @@ export const onCreateVendor = /* GraphQL */ `
   }
 `;
 export const onUpdateVendor = /* GraphQL */ `
-  subscription OnUpdateVendor {
-    onUpdateVendor {
+  subscription OnUpdateVendor($filter: ModelSubscriptionVendorFilterInput) {
+    onUpdateVendor(filter: $filter) {
       id
       requestnumber
       requestedoperation
@@ -80,8 +80,8 @@ export const onUpdateVendor = /* GraphQL */ `
   }
 `;
 export const onDeleteVendor = /* GraphQL */ `
-  subscription OnDeleteVendor {
-    onDeleteVendor {
+  subscription OnDeleteVendor($filter: ModelSubscriptionVendorFilterInput) {
+    onDeleteVendor(filter: $filter) {
       id
       requestnumber
       requestedoperation
