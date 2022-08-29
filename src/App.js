@@ -77,6 +77,7 @@ function App() {
     setNotes(newNotesArray);
     await API.graphql({ query: deleteNoteMutation, variables: { input: { id } }});
   }
+  console.log("sha");
 
 
 
