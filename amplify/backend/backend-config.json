@@ -25,26 +25,7 @@
       }
     }
   },
-  "api": {
-    "amplifyapp": {
-      "service": "AppSync",
-      "providerPlugin": "awscloudformation",
-      "dependsOn": [],
-      "output": {
-        "authConfig": {
-          "defaultAuthentication": {
-            "authenticationType": "API_KEY",
-            "apiKeyConfig": {
-              "apiKeyExpirationDays": 7,
-              "apiKeyExpirationDate": "2022-09-06T07:25:21.841Z",
-              "description": ""
-            }
-          },
-          "additionalAuthenticationProviders": []
-        }
-      }
-    }
-  },
+  "api": {},
   "storage": {
     "s3323f566c": {
       "service": "S3",
