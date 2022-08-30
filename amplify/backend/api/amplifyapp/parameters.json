@@ -1,6 +1,6 @@
 {
-  "AppSyncApiName": "shaistadeeba",
+  "AppSyncApiName": "amplifyapp",
   "DynamoDBBillingMode": "PAY_PER_REQUEST",
   "DynamoDBEnableServerSideEncryption": false,
-  "AuthModeLastUpdated": "2022-08-29T11:46:24.593Z"
+  "AuthModeLastUpdated": "2022-08-30T07:19:38.024Z"
 }

@@ -26,7 +26,7 @@
     }
   },
   "api": {
-    "shaistadeeba": {
+    "amplifyapp": {
       "service": "AppSync",
       "providerPlugin": "awscloudformation",
       "dependsOn": [],
@@ -36,7 +36,7 @@
             "authenticationType": "API_KEY",
             "apiKeyConfig": {
               "apiKeyExpirationDays": 7,
-              "apiKeyExpirationDate": "2022-09-05T11:46:23.256Z",
+              "apiKeyExpirationDate": "2022-09-06T07:25:21.841Z",
               "description": ""
             }
           },
